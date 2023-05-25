@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --section-overlay: rgba(0, 0, 0, 0.7);
+  --background-overlay: rgba(0, 0, 0, 0.998);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: merriweather, sans-serif;
+}
+
+.section {
+  width: 100%;
+  padding: 1rem;
+
+  border-radius: 1rem;
+  color: white;
+}
+
+.section_inputs,
+.section_temperature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--section-overlay);
+}
+
+.section_inputs > input {
+  border: 0.8px solid white;
+  border-radius: 0.4rem;
+  background-color: transparent;
+  color: white;
+  padding: 0.5rem;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.section_inputs > input:focus {
+  outline: none;
+}
+
+.section_inputs > button {
+  padding: 10px 50px;
+  border: none;
+  border-radius: 00.4rem;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: white;
+}
+
+.section_inputs > button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+.section_temperature {
+  margin-top: 5rem;
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-heartBeat {
+  animation: heartbeat 4s infinite;
+}
