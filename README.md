@@ -1,5 +1,5 @@
 # https://646fc743128a800087908827--subtle-stardust-fd3add.netlify.app/
-# visit the above link to see the direct deployment
+# visit the above link to see the direct deployment also do hit enter after you have typed the place or zip code
 
 # Getting Started with Create React App
 
