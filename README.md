@@ -1,3 +1,6 @@
+# https://646fc743128a800087908827--subtle-stardust-fd3add.netlify.app/
+# visit the above link to see the direct deployment
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
